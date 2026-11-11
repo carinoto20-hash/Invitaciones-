@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ead5f4">
+  <title>Mi graduación | Carina Higuera Ponce</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="sparkles" aria-hidden="true"></div>
+  <section class="portada" id="portada">
+    <div class="portada-card">
+      <span class="mini-flor">✿</span>
+      <p class="sobrelinea">UN SUEÑO, UN LOGRO, UN NUEVO COMIENZO</p>
+      <div class="birrete">🎓</div>
+      <h1>¡Estás invitado/a!</h1>
+      <p class="portada-texto">A celebrar un momento muy especial...</p>
+      <div class="nombre-portada">Carina Higuera Ponce</div>
+      <button class="boton-principal" id="abrirBtn">Abrir invitación <span>♡</span></button>
+      <p class="toca">Toca para descubrir la invitación</p>
+    </div>
+    <div class="flor flor-a">✿</div><div class="flor flor-b">❀</div>
+  </section>
+
+  <main class="invitacion oculto" id="invitacion">
+    <header class="barra">
+      <span>♡</span><span class="barra-centro">MI GRADUACIÓN</span><span>✦</span>
+    </header>
+
+    <section class="hero seccion">
+      <div class="hero-texto">
+        <p class="sobrelinea">CON MUCHA ALEGRÍA</p>
+        <h2>Mi <em>Graduación</em></h2>
+        <div class="separador">♡ ✧ ♡</div>
+        <p class="mensaje">Hay momentos que se convierten en recuerdos para toda la vida. Me encantaría compartir contigo este logro tan especial.</p>
+      </div>
+      <div class="foto-marco">
+        <span class="cinta-foto">Un logro para recordar</span>
+        <img src="imagenes/carina-graduacion.jpg" alt="Fotografía de graduación de Carina Higuera Ponce">
+      </div>
+    </section>
+
+    <section class="nombre-bloque seccion">
+      <p>CON EL CORAZÓN LLENO DE GRATITUD</p>
+      <h2>Carina Higuera Ponce</h2>
+      <span>celebra este gran día</span>
+    </section>
+
+    <section class="detalles seccion">
+      <p class="sobrelinea">RESERVA ESTA FECHA</p>
+      <h2>Detalles del evento</h2>
+      <div class="detalle-grid">
+        <article class="detalle"><div class="icono">📅</div><h3>Fecha</h3><p>Sábado, 12 de diciembre de 2026</p></article>
+        <article class="detalle"><div class="icono">🕗</div><h3>Hora</h3><p>8:00 de la noche</p></article>
+        <article class="detalle direccion"><div class="icono">📍</div><h3>Dirección</h3><p>Barrio San Juan<br>Calle Patujú – UV 6</p><a class="enlace-mapa" href="https://www.google.com/maps/search/?api=1&query=Barrio+San+Juan+Calle+Patuju+UV+6" target="_blank" rel="noopener">Ver en el mapa ↗</a></article>
+      </div>
+    </section>
+
+    <section class="cuenta seccion">
+      <p class="sobrelinea">LA CUENTA REGRESIVA COMIENZA</p>
+      <h2>Falta muy poco...</h2>
+      <div class="reloj" id="cuenta">
+        <div><strong id="dias">--</strong><span>DÍAS</span></div>
+        <div><strong id="horas">--</strong><span>HORAS</span></div>
+        <div><strong id="minutos">--</strong><span>MINUTOS</span></div>
+        <div><strong id="segundos">--</strong><span>SEGUNDOS</span></div>
+      </div>
+    </section>
+
+    <footer class="final seccion">
+      <div class="ramita">✿ ❀ ✿</div>
+      <h2>¡Te espero!</h2>
+      <p>Tu presencia hará que este día sea aún más especial.</p>
+      <div class="corazon">♡</div>
+      <small>Con cariño, Carina</small>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
